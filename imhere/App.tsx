@@ -12,8 +12,16 @@ export default function App(){
         fontSize: 24,
         fontWeight: 'bold',
         marginTop: 48,
-      }}>React</Text>
-      <Text key="2">Victor</Text>
+      }}>
+        Nome do Evento
+      </Text>
+      
+      <Text style={{
+        color: '#6B6B6B',
+        fontSize: 16
+      }}>
+        Sexta, 4 de Novembro de 2022.
+        </Text>
     </View> 
   );
-}
+} 
